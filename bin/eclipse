@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd `dirname $BASH_SOURCE`/..
+
+mvn -s conf/settings.xml eclipse:eclipse
